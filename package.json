@@ -1,0 +1,22 @@
+{
+  "name": "cypress-meetup",
+  "version": "1.0.0",
+  "description": "Cypress testes e2e",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run --record --key b59ef464-6f5d-4728-8670-ac78ac0d2990",
+    "cypress:open": "cypress open"
+  },
+  "author": "Douglas G. Ferreira",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^3.2.0",
+    "cypress-cucumber-preprocessor": "^1.10.0",
+    "cypress-plugin-tab": "^1.0.0",
+    "faker": "^4.1.0"
+  },
+  "dependencies": {},
+  "keywords": [
+    "cypress"
+  ]
+}
